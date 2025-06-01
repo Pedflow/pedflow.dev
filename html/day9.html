@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Pedflow</title>
+
+    </head>
+
+    <body>
+        <h2>Day 9: Forms (Part 2)</h2>
+        <p>Task: Add radio buttons and checkboxes for a survey.</p>
+
+        <form action="#" method="post">
+        <h3>Wahlumfrage</h3>
+        <p>Das Ziel dieses Formulars ist es, eine Umfrage über die politischen Parteien in Deutschland durchzuführen.</p>
+          
+        <h4>Persönliche Daten</h4>
+
+        <label for="name">Name:</label><br>
+        <input type="name" id="name" name="name"> <br><br>
+
+        <label for="email">Email-Adresse:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="number">Handynummer:</label><br>
+        <input type="number" id="number" name="number"  placeholder="Handynummer ist freiwillig"><br><br><hr>
+
+        <h4>Geschlecht</h4>
+        <input type="radio" id="weiblich" name="geschlecht" value="weiblich">
+        <label for="weiblich">weiblich</label><br><br>
+
+        <input type="radio" id="männlich" name="geschlecht" value="männlich">
+        <label for="männlich">männlich</label><br><br>
+
+        <input type="radio" id="divers" name="geschlecht" value="divers">
+        <label for="divers">divers</label><br><br><hr>
+
+        <h4>Parteien</h4>
+        <p>Welcher Partei (oder welchen Parteien) in Deutschland fühlen Sie sich am meisten verbunden? </p>
+        
+        <input type="checkbox" id="cdu" name="partei" value="cdu">
+        <label for="cdu">CDU</label><br>
+
+        <input type="checkbox" id="afd" name="partei" value="afd">
+        <label for="afd">AFD</label><br>
+
+        <input type="checkbox" id="spd" name="partei" value="spd">
+        <label for="spd">SPD</label><br>
+
+        <input type="checkbox" id="fdp" name="partei" value="fdp">
+        <label for="fdp">FDP</label><br>
+
+        <input type="checkbox" id="grünen" name="partei" value="grünen">
+        <label for="grünen">Grünen</label><br>
+
+        <input type="checkbox" id="andere" name="partei" value="andere">
+        <label for="andere">andere</label><br><hr>
+
+        <input type="submit" value="schicken">
+
+
+        </form>
+        <p><a href="../index.html">Zurück zur Startseite</a></p>
+    </body>
+</html>
